@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 60 108 ctlin;
+#X text 91 196 value;
+#X text 104 107 (all controllers \, omni);
+#X text 107 166 controller #;
+#X text 119 134 channel/port;
+#X floatatom 60 195 4 0 127 0 - - - 0;
+#X floatatom 76 166 4 0 127 0 - - - 0;
+#X floatatom 92 133 0 1 64 0 - - - 0;
+#X connect 0 0 5 0;
+#X connect 0 1 6 0;
+#X connect 0 2 7 0;
